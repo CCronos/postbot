@@ -82,6 +82,7 @@ def main():
     print(f"{'cuenta':18s} {'ventanas':>9s} {'posts':>7s}  |  {'MAE% @25%':>10s} {'MAE% @50%':>10s} {'MAE% @75%':>10s}  |  sesgo@50%  |  sobre-disp.")
     print("-" * 105)
     results = []
+    rate_profiles = {}
     for handle in sorted(HANDLES):
         r = backtest_handle(handle)
         if r is None:
@@ -91,9 +92,14 @@ def main():
         print(f"{r['handle']:18s} {r['n_windows']:>9d} {r['n_posts']:>7d}  |  "
               f"{r['mae_pct_25']:>9.1f}% {r['mae_pct_50']:>9.1f}% {r['mae_pct_75']:>9.1f}%  |  "
               f"{r['bias_pct_50']:>+7.1f}%  |  {r['overdispersion']:>5.1f}x")
+        rate_profiles[handle] = build_rate_profile(load_history(handle)["posts"])
 
     (ROOT / "data" / "backtest_results.json").write_text(
         json.dumps(results, indent=2), encoding="utf-8")
+    # 168 numeros (7 dias x 24h) por cuenta - liviano, se commitea para que el
+    # ciclo rapido (live_snapshot.py) proyecte sin necesitar el historial crudo.
+    (ROOT / "data" / "rate_profiles.json").write_text(
+        json.dumps(rate_profiles, separators=(",", ":")), encoding="utf-8")
     print("\nMAE% = error absoluto promedio como % del total real. Mas bajo = mejor.")
     print("Se espera que MAE baje de @25% a @75% (menos por proyectar, mas ya contado).")
 

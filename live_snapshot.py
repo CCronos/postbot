@@ -19,7 +19,7 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-from model import load_history, build_rate_profile, expected_remaining, project_total_calibrated, bucket_probability_normal
+from model import expected_remaining, project_total_calibrated, bucket_probability_normal
 
 ROOT = Path(__file__).resolve().parent
 XTRACKER = "https://xtracker.polymarket.com/api"
@@ -69,6 +69,13 @@ def load_overdispersion():
         return {}
     rows = json.loads(path.read_text(encoding="utf-8"))
     return {r["handle"]: r["overdispersion"] for r in rows}
+
+
+def load_rate_profiles():
+    path = ROOT / "data" / "rate_profiles.json"
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def snapshot_tracking(handle, profile, overdispersion, tracking, now):
@@ -143,6 +150,7 @@ def snapshot_tracking(handle, profile, overdispersion, tracking, now):
 
 def main():
     overdispersion_by_handle = load_overdispersion()
+    profiles_by_handle = load_rate_profiles()
     users = fetch(f"{XTRACKER}/users")["data"]
     now = datetime.now(timezone.utc)
 
@@ -151,8 +159,10 @@ def main():
         handle = u["handle"]
         if not u.get("trackings"):
             continue
-        history = load_history(handle)
-        profile = build_rate_profile(history["posts"])
+        profile = profiles_by_handle.get(handle)
+        if profile is None:
+            print(f"  {handle}: sin perfil de tasa todavia (esperando al ciclo lento), se salta")
+            continue
         overdispersion = overdispersion_by_handle.get(handle, 5.0)  # default conservador si no hay backtest
 
         print(f"\n=== {handle} (sobre-disp. {overdispersion}x) ===")
