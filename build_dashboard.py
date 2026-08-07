@@ -25,30 +25,25 @@ DISPLAY_NAMES = {
 }
 
 
-def daily_counts(posts, days=60):
-    by_day = defaultdict(int)
-    for p in posts:
-        by_day[p["createdAt"][:10]] += 1
-    days_sorted = sorted(by_day.keys())[-days:]
-    return [[d, by_day[d]] for d in days_sorted]
-
-
 def build_account_data():
     live = json.loads((ROOT / "data" / "live_snapshot.json").read_text(encoding="utf-8"))
     backtest_rows = json.loads((ROOT / "data" / "backtest_results.json").read_text(encoding="utf-8"))
     backtest_by_handle = {r["handle"]: r for r in backtest_rows}
+    # daily_summary.json y summary.json los genera el ciclo lento
+    # (download_history.py, cada 6h) - el ciclo rapido (cada 5 min) solo lee
+    # estos dos archivos livianos, nunca descarga el historial completo.
+    daily_by_handle = json.loads((ROOT / "data" / "daily_summary.json").read_text(encoding="utf-8"))
+    totals_by_handle = json.loads((ROOT / "data" / "summary.json").read_text(encoding="utf-8"))
 
     accounts = []
     for handle, trackings in live["accounts"].items():
-        hist_path = ROOT / "data" / "history" / f"{handle}.json"
-        posts = json.loads(hist_path.read_text(encoding="utf-8"))["posts"] if hist_path.exists() else []
         accounts.append({
             "handle": handle,
             "name": DISPLAY_NAMES.get(handle, handle),
             "trackings": trackings,
             "backtest": backtest_by_handle.get(handle),
-            "daily": daily_counts(posts),
-            "total_posts": len(posts),
+            "daily": daily_by_handle.get(handle, []),
+            "total_posts": totals_by_handle.get(handle, 0),
         })
     accounts.sort(key=lambda a: -a["total_posts"])
     return accounts, live["generated_at"]

@@ -1,18 +1,15 @@
-# CHATTER — corre el pipeline completo (descarga historial, backtest,
-# snapshot en vivo, build) y publica el dashboard en Cloudflare Pages.
-# Nada de esto depende de la laptop del usuario.
+# Ciclo RAPIDO: conteo en vivo + precios reales de Polymarket + rebuild del
+# dashboard. Cada 5 minutos. NO descarga el historial completo (eso lo hace
+# refresh-history.yml cada 6h) - solo lee data/summary.json y
+# data/daily_summary.json, que ya estan commiteados en el repo.
 #
-# Secrets requeridos (Settings > Secrets and variables > Actions):
-#   CLOUDFLARE_API_TOKEN   token de Cloudflare con permiso "Cloudflare Pages: Edit"
-#   CLOUDFLARE_ACCOUNT_ID  el Account ID del dashboard de Cloudflare
-#
-# Repo 100% separado de weatherbot a proposito (pedido del usuario 2026-08-06).
+# Secrets requeridos: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
 
 name: deploy
 
 on:
   schedule:
-    - cron: "0 * * * *"  # cada hora (UTC)
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -20,12 +17,12 @@ permissions:
 
 concurrency:
   group: chatter-deploy
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -34,12 +31,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Descargar historial de posts (xtracker)
-        run: python download_history.py
-
-      - name: Backtest (mide sobre-dispersion real por cuenta)
-        run: python backtest.py
 
       - name: Snapshot en vivo + EV/Kelly contra Polymarket
         run: python live_snapshot.py

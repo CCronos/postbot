@@ -61,10 +61,20 @@ def download_user(handle, created_at_str):
     return sorted(posts_by_id.values(), key=lambda p: p["createdAt"])
 
 
+def daily_counts(posts, days=60):
+    from collections import defaultdict
+    by_day = defaultdict(int)
+    for p in posts:
+        by_day[p["createdAt"][:10]] += 1
+    days_sorted = sorted(by_day.keys())[-days:]
+    return [[d, by_day[d]] for d in days_sorted]
+
+
 def main():
     users = fetch(f"{BASE}/users")["data"]
     print(f"{len(users)} cuentas trackeadas")
     summary = {}
+    daily_summary = {}
     for u in users:
         handle = u["handle"]
         print(f"  {handle}: bajando desde {u['createdAt'][:10]}...")
@@ -77,9 +87,17 @@ def main():
             "posts": posts,
         }, separators=(",", ":")), encoding="utf-8")
         summary[handle] = len(posts)
+        daily_summary[handle] = daily_counts(posts)
         print(f"    {len(posts)} posts -> {out_path.name} ({out_path.stat().st_size/1024:.0f} KB)")
 
+    # summary.json y daily_summary.json SI se commitean (livianos) - permiten que
+    # el ciclo rapido (cada 5 min, solo live_snapshot + build_dashboard) arme el
+    # dashboard sin tener que re-descargar el historial completo cada vez. El
+    # historial crudo en data/history/ (con el texto de los posts) queda
+    # gitignored a proposito, no hace falta persistirlo entre corridas.
     (ROOT / "data" / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
+    (ROOT / "data" / "daily_summary.json").write_text(
+        json.dumps(daily_summary, separators=(",", ":")), encoding="utf-8")
     print("listo:", summary)
 
 

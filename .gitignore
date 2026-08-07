@@ -1,7 +1,5 @@
 data/history/
-data/backtest_results.json
 data/live_snapshot.json
-data/summary.json
 __pycache__/
 *.pyc
 dist/

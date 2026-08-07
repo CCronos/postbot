@@ -1,0 +1,110 @@
+[
+  {
+    "handle": "Cobratate",
+    "n_windows": 6,
+    "n_posts": 717,
+    "overdispersion": 2.73,
+    "mae_pct_25": 13.0,
+    "bias_pct_25": 0.8,
+    "mae_pct_50": 8.9,
+    "bias_pct_50": 1.6,
+    "mae_pct_75": 6.0,
+    "bias_pct_75": 1.1
+  },
+  {
+    "handle": "NYCMayor",
+    "n_windows": 19,
+    "n_posts": 795,
+    "overdispersion": 2.92,
+    "mae_pct_25": 22.6,
+    "bias_pct_25": 8.0,
+    "mae_pct_50": 15.8,
+    "bias_pct_50": 5.4,
+    "mae_pct_75": 8.6,
+    "bias_pct_75": 2.6
+  },
+  {
+    "handle": "WhiteHouse",
+    "n_windows": 23,
+    "n_posts": 4310,
+    "overdispersion": 12.34,
+    "mae_pct_25": 31.0,
+    "bias_pct_25": -3.7,
+    "mae_pct_50": 20.7,
+    "bias_pct_50": -4.3,
+    "mae_pct_75": 7.6,
+    "bias_pct_75": -3.9
+  },
+  {
+    "handle": "ZelenskyyUa",
+    "n_windows": 19,
+    "n_posts": 1634,
+    "overdispersion": 3.09,
+    "mae_pct_25": 16.9,
+    "bias_pct_25": 3.3,
+    "mae_pct_50": 12.8,
+    "bias_pct_50": 1.9,
+    "mae_pct_75": 8.0,
+    "bias_pct_75": 0.5
+  },
+  {
+    "handle": "cz_binance",
+    "n_windows": 19,
+    "n_posts": 448,
+    "overdispersion": 5.41,
+    "mae_pct_25": 44.6,
+    "bias_pct_25": 24.6,
+    "mae_pct_50": 31.9,
+    "bias_pct_50": 18.8,
+    "mae_pct_75": 22.1,
+    "bias_pct_75": 10.2
+  },
+  {
+    "handle": "elonmusk",
+    "n_windows": 39,
+    "n_posts": 11167,
+    "overdispersion": 25.64,
+    "mae_pct_25": 24.2,
+    "bias_pct_25": 9.3,
+    "mae_pct_50": 19.5,
+    "bias_pct_50": 7.0,
+    "mae_pct_75": 12.4,
+    "bias_pct_75": 3.8
+  },
+  {
+    "handle": "khamenei_ir",
+    "n_windows": 9,
+    "n_posts": 149,
+    "overdispersion": 13.08,
+    "mae_pct_25": 37.3,
+    "bias_pct_25": -22.7,
+    "mae_pct_50": 27.9,
+    "bias_pct_50": -11.4,
+    "mae_pct_75": 16.9,
+    "bias_pct_75": -5.3
+  },
+  {
+    "handle": "realDonaldTrump",
+    "n_windows": 29,
+    "n_posts": 4037,
+    "overdispersion": 14.45,
+    "mae_pct_25": 33.9,
+    "bias_pct_25": 16.0,
+    "mae_pct_50": 25.9,
+    "bias_pct_50": 11.0,
+    "mae_pct_75": 10.2,
+    "bias_pct_75": 2.2
+  },
+  {
+    "handle": "tedcruz",
+    "n_windows": 22,
+    "n_posts": 2452,
+    "overdispersion": 5.55,
+    "mae_pct_25": 24.8,
+    "bias_pct_25": 10.8,
+    "mae_pct_50": 17.5,
+    "bias_pct_50": 6.7,
+    "mae_pct_75": 10.8,
+    "bias_pct_75": 2.4
+  }
+]
