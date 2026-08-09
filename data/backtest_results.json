@@ -38,7 +38,7 @@
   {
     "handle": "ZelenskyyUa",
     "n_windows": 20,
-    "n_posts": 1650,
+    "n_posts": 1651,
     "overdispersion": 3.06,
     "mae_pct_25": 17.0,
     "bias_pct_25": 4.1,
@@ -62,7 +62,7 @@
   {
     "handle": "elonmusk",
     "n_windows": 40,
-    "n_posts": 11217,
+    "n_posts": 11219,
     "overdispersion": 25.56,
     "mae_pct_25": 24.7,
     "bias_pct_25": 10.2,
@@ -98,7 +98,7 @@
   {
     "handle": "tedcruz",
     "n_windows": 22,
-    "n_posts": 2486,
+    "n_posts": 2487,
     "overdispersion": 5.55,
     "mae_pct_25": 24.9,
     "bias_pct_25": 10.9,
