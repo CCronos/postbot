@@ -62,7 +62,7 @@
   {
     "handle": "elonmusk",
     "n_windows": 40,
-    "n_posts": 11209,
+    "n_posts": 11217,
     "overdispersion": 25.56,
     "mae_pct_25": 24.7,
     "bias_pct_25": 10.2,
@@ -98,10 +98,10 @@
   {
     "handle": "tedcruz",
     "n_windows": 22,
-    "n_posts": 2484,
+    "n_posts": 2486,
     "overdispersion": 5.55,
     "mae_pct_25": 24.9,
-    "bias_pct_25": 11.0,
+    "bias_pct_25": 10.9,
     "mae_pct_50": 17.5,
     "bias_pct_50": 6.7,
     "mae_pct_75": 10.8,
