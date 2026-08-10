@@ -62,10 +62,10 @@
   {
     "handle": "elonmusk",
     "n_windows": 40,
-    "n_posts": 11229,
+    "n_posts": 11235,
     "overdispersion": 25.56,
     "mae_pct_25": 24.7,
-    "bias_pct_25": 10.2,
+    "bias_pct_25": 10.1,
     "mae_pct_50": 19.7,
     "bias_pct_50": 7.5,
     "mae_pct_75": 12.5,
