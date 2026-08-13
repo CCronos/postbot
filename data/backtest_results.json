@@ -62,10 +62,10 @@
   {
     "handle": "elonmusk",
     "n_windows": 40,
-    "n_posts": 11295,
-    "overdispersion": 25.64,
+    "n_posts": 11300,
+    "overdispersion": 25.66,
     "mae_pct_25": 24.5,
-    "bias_pct_25": 9.7,
+    "bias_pct_25": 9.6,
     "mae_pct_50": 19.7,
     "bias_pct_50": 7.3,
     "mae_pct_75": 12.5,
@@ -98,13 +98,13 @@
   {
     "handle": "tedcruz",
     "n_windows": 22,
-    "n_posts": 2571,
-    "overdispersion": 5.49,
-    "mae_pct_25": 25.1,
-    "bias_pct_25": 12.1,
+    "n_posts": 2576,
+    "overdispersion": 5.48,
+    "mae_pct_25": 25.2,
+    "bias_pct_25": 12.2,
     "mae_pct_50": 17.8,
-    "bias_pct_50": 7.9,
-    "mae_pct_75": 10.8,
-    "bias_pct_75": 2.6
+    "bias_pct_50": 8.0,
+    "mae_pct_75": 10.9,
+    "bias_pct_75": 2.7
   }
 ]
