@@ -14,7 +14,7 @@
   {
     "handle": "NYCMayor",
     "n_windows": 21,
-    "n_posts": 839,
+    "n_posts": 840,
     "overdispersion": 2.85,
     "mae_pct_25": 21.7,
     "bias_pct_25": 7.8,
@@ -50,7 +50,7 @@
   {
     "handle": "cz_binance",
     "n_windows": 21,
-    "n_posts": 460,
+    "n_posts": 461,
     "overdispersion": 5.31,
     "mae_pct_25": 44.2,
     "bias_pct_25": 24.5,
@@ -62,7 +62,7 @@
   {
     "handle": "elonmusk",
     "n_windows": 41,
-    "n_posts": 11381,
+    "n_posts": 11386,
     "overdispersion": 25.6,
     "mae_pct_25": 24.9,
     "bias_pct_25": 10.2,
