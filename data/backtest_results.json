@@ -38,7 +38,7 @@
   {
     "handle": "ZelenskyyUa",
     "n_windows": 21,
-    "n_posts": 1711,
+    "n_posts": 1713,
     "overdispersion": 3.21,
     "mae_pct_25": 17.6,
     "bias_pct_25": 4.2,
@@ -98,10 +98,10 @@
   {
     "handle": "tedcruz",
     "n_windows": 23,
-    "n_posts": 2659,
-    "overdispersion": 6.01,
+    "n_posts": 2661,
+    "overdispersion": 6.02,
     "mae_pct_25": 25.2,
-    "bias_pct_25": 10.8,
+    "bias_pct_25": 10.7,
     "mae_pct_50": 18.1,
     "bias_pct_50": 7.0,
     "mae_pct_75": 11.0,
