@@ -26,8 +26,8 @@
   {
     "handle": "WhiteHouse",
     "n_windows": 25,
-    "n_posts": 4553,
-    "overdispersion": 11.36,
+    "n_posts": 4557,
+    "overdispersion": 11.35,
     "mae_pct_25": 29.7,
     "bias_pct_25": -3.9,
     "mae_pct_50": 19.8,
