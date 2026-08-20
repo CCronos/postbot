@@ -14,9 +14,9 @@
   {
     "handle": "NYCMayor",
     "n_windows": 21,
-    "n_posts": 853,
+    "n_posts": 855,
     "overdispersion": 2.86,
-    "mae_pct_25": 21.3,
+    "mae_pct_25": 21.4,
     "bias_pct_25": 7.2,
     "mae_pct_50": 15.5,
     "bias_pct_50": 5.8,
@@ -26,14 +26,14 @@
   {
     "handle": "WhiteHouse",
     "n_windows": 25,
-    "n_posts": 4616,
-    "overdispersion": 11.34,
-    "mae_pct_25": 29.7,
-    "bias_pct_25": -3.9,
+    "n_posts": 4635,
+    "overdispersion": 11.18,
+    "mae_pct_25": 29.6,
+    "bias_pct_25": -3.7,
     "mae_pct_50": 19.7,
-    "bias_pct_50": -4.2,
+    "bias_pct_50": -4.0,
     "mae_pct_75": 7.1,
-    "bias_pct_75": -3.7
+    "bias_pct_75": -3.5
   },
   {
     "handle": "ZelenskyyUa",
@@ -50,19 +50,19 @@
   {
     "handle": "cz_binance",
     "n_windows": 21,
-    "n_posts": 467,
-    "overdispersion": 5.34,
-    "mae_pct_25": 43.5,
-    "bias_pct_25": 23.4,
-    "mae_pct_50": 30.8,
-    "bias_pct_50": 17.9,
+    "n_posts": 469,
+    "overdispersion": 5.33,
+    "mae_pct_25": 43.7,
+    "bias_pct_25": 23.8,
+    "mae_pct_50": 31.0,
+    "bias_pct_50": 18.3,
     "mae_pct_75": 20.9,
     "bias_pct_75": 9.5
   },
   {
     "handle": "elonmusk",
     "n_windows": 41,
-    "n_posts": 11506,
+    "n_posts": 11516,
     "overdispersion": 25.54,
     "mae_pct_25": 24.9,
     "bias_pct_25": 10.3,
@@ -98,13 +98,13 @@
   {
     "handle": "tedcruz",
     "n_windows": 23,
-    "n_posts": 2720,
-    "overdispersion": 5.98,
-    "mae_pct_25": 25.2,
-    "bias_pct_25": 11.0,
-    "mae_pct_50": 18.2,
-    "bias_pct_50": 7.2,
-    "mae_pct_75": 11.1,
-    "bias_pct_75": 2.9
+    "n_posts": 2739,
+    "overdispersion": 5.94,
+    "mae_pct_25": 25.3,
+    "bias_pct_25": 11.4,
+    "mae_pct_50": 18.3,
+    "bias_pct_50": 7.7,
+    "mae_pct_75": 11.3,
+    "bias_pct_75": 3.3
   }
 ]
