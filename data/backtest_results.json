@@ -26,26 +26,26 @@
   {
     "handle": "WhiteHouse",
     "n_windows": 25,
-    "n_posts": 4660,
-    "overdispersion": 11.21,
+    "n_posts": 4670,
+    "overdispersion": 11.08,
     "mae_pct_25": 29.6,
-    "bias_pct_25": -3.7,
-    "mae_pct_50": 19.7,
-    "bias_pct_50": -4.0,
-    "mae_pct_75": 7.1,
-    "bias_pct_75": -3.6
+    "bias_pct_25": -3.6,
+    "mae_pct_50": 19.6,
+    "bias_pct_50": -3.9,
+    "mae_pct_75": 7.0,
+    "bias_pct_75": -3.4
   },
   {
     "handle": "ZelenskyyUa",
     "n_windows": 21,
-    "n_posts": 1743,
-    "overdispersion": 3.26,
+    "n_posts": 1745,
+    "overdispersion": 3.27,
     "mae_pct_25": 17.1,
-    "bias_pct_25": 2.8,
-    "mae_pct_50": 13.3,
-    "bias_pct_50": 2.1,
+    "bias_pct_25": 2.6,
+    "mae_pct_50": 13.2,
+    "bias_pct_50": 1.9,
     "mae_pct_75": 8.4,
-    "bias_pct_75": 0.9
+    "bias_pct_75": 0.8
   },
   {
     "handle": "cz_binance",
