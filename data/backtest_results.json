@@ -62,11 +62,11 @@
   {
     "handle": "elonmusk",
     "n_windows": 41,
-    "n_posts": 11601,
+    "n_posts": 11604,
     "overdispersion": 25.4,
     "mae_pct_25": 25.1,
-    "bias_pct_25": 10.7,
-    "mae_pct_50": 20.1,
+    "bias_pct_25": 10.6,
+    "mae_pct_50": 20.0,
     "bias_pct_50": 8.3,
     "mae_pct_75": 12.5,
     "bias_pct_75": 4.4
@@ -98,7 +98,7 @@
   {
     "handle": "tedcruz",
     "n_windows": 24,
-    "n_posts": 2770,
+    "n_posts": 2771,
     "overdispersion": 6.25,
     "mae_pct_25": 25.0,
     "bias_pct_25": 10.9,
