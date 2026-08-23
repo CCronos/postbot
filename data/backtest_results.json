@@ -49,15 +49,15 @@
   },
   {
     "handle": "cz_binance",
-    "n_windows": 21,
-    "n_posts": 478,
-    "overdispersion": 5.25,
-    "mae_pct_25": 44.4,
-    "bias_pct_25": 24.8,
-    "mae_pct_50": 31.6,
-    "bias_pct_50": 19.4,
-    "mae_pct_75": 21.4,
-    "bias_pct_75": 10.3
+    "n_windows": 22,
+    "n_posts": 479,
+    "overdispersion": 5.08,
+    "mae_pct_25": 42.3,
+    "bias_pct_25": 23.3,
+    "mae_pct_50": 30.0,
+    "bias_pct_50": 17.5,
+    "mae_pct_75": 20.0,
+    "bias_pct_75": 9.0
   },
   {
     "handle": "elonmusk",
