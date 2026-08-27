@@ -86,14 +86,14 @@
   {
     "handle": "realDonaldTrump",
     "n_windows": 31,
-    "n_posts": 4557,
-    "overdispersion": 13.62,
-    "mae_pct_25": 33.6,
-    "bias_pct_25": 16.4,
-    "mae_pct_50": 25.5,
-    "bias_pct_50": 11.8,
-    "mae_pct_75": 10.8,
-    "bias_pct_75": 3.4
+    "n_posts": 4560,
+    "overdispersion": 13.64,
+    "mae_pct_25": 33.5,
+    "bias_pct_25": 16.3,
+    "mae_pct_50": 25.4,
+    "bias_pct_50": 11.7,
+    "mae_pct_75": 10.7,
+    "bias_pct_75": 3.3
   },
   {
     "handle": "tedcruz",
