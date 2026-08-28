@@ -85,15 +85,15 @@
   },
   {
     "handle": "realDonaldTrump",
-    "n_windows": 31,
-    "n_posts": 4587,
-    "overdispersion": 13.56,
-    "mae_pct_25": 33.7,
-    "bias_pct_25": 16.7,
-    "mae_pct_50": 25.6,
-    "bias_pct_50": 12.1,
-    "mae_pct_75": 10.9,
-    "bias_pct_75": 3.7
+    "n_windows": 32,
+    "n_posts": 4596,
+    "overdispersion": 14.77,
+    "mae_pct_25": 33.4,
+    "bias_pct_25": 15.5,
+    "mae_pct_50": 25.5,
+    "bias_pct_50": 11.0,
+    "mae_pct_75": 11.2,
+    "bias_pct_75": 3.0
   },
   {
     "handle": "tedcruz",
