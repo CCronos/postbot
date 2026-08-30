@@ -38,7 +38,7 @@
   {
     "handle": "ZelenskyyUa",
     "n_windows": 23,
-    "n_posts": 1964,
+    "n_posts": 1968,
     "overdispersion": 7.3,
     "mae_pct_25": 22.5,
     "bias_pct_25": 7.9,
@@ -50,7 +50,7 @@
   {
     "handle": "cz_binance",
     "n_windows": 23,
-    "n_posts": 525,
+    "n_posts": 526,
     "overdispersion": 5.11,
     "mae_pct_25": 43.6,
     "bias_pct_25": 23.9,
@@ -62,7 +62,7 @@
   {
     "handle": "elonmusk",
     "n_windows": 43,
-    "n_posts": 11844,
+    "n_posts": 11849,
     "overdispersion": 25.63,
     "mae_pct_25": 25.1,
     "bias_pct_25": 10.2,
@@ -86,8 +86,8 @@
   {
     "handle": "realDonaldTrump",
     "n_windows": 32,
-    "n_posts": 4668,
-    "overdispersion": 14.77,
+    "n_posts": 4669,
+    "overdispersion": 14.78,
     "mae_pct_25": 33.4,
     "bias_pct_25": 15.4,
     "mae_pct_50": 25.5,
