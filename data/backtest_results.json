@@ -38,10 +38,10 @@
   {
     "handle": "ZelenskyyUa",
     "n_windows": 23,
-    "n_posts": 1974,
-    "overdispersion": 7.32,
-    "mae_pct_25": 22.2,
-    "bias_pct_25": 7.3,
+    "n_posts": 1978,
+    "overdispersion": 7.33,
+    "mae_pct_25": 22.1,
+    "bias_pct_25": 7.2,
     "mae_pct_50": 16.1,
     "bias_pct_50": 5.3,
     "mae_pct_75": 8.2,
@@ -86,8 +86,8 @@
   {
     "handle": "realDonaldTrump",
     "n_windows": 32,
-    "n_posts": 4722,
-    "overdispersion": 14.74,
+    "n_posts": 4725,
+    "overdispersion": 14.75,
     "mae_pct_25": 33.5,
     "bias_pct_25": 15.8,
     "mae_pct_50": 25.6,
@@ -98,12 +98,12 @@
   {
     "handle": "tedcruz",
     "n_windows": 25,
-    "n_posts": 2998,
+    "n_posts": 2999,
     "overdispersion": 7.14,
     "mae_pct_25": 26.0,
     "bias_pct_25": 11.3,
     "mae_pct_50": 19.4,
-    "bias_pct_50": 7.5,
+    "bias_pct_50": 7.6,
     "mae_pct_75": 12.6,
     "bias_pct_75": 3.2
   }
