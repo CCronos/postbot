@@ -62,14 +62,14 @@
   {
     "handle": "elonmusk",
     "n_windows": 43,
-    "n_posts": 12008,
-    "overdispersion": 25.67,
-    "mae_pct_25": 25.0,
-    "bias_pct_25": 10.0,
-    "mae_pct_50": 20.6,
-    "bias_pct_50": 7.6,
-    "mae_pct_75": 12.5,
-    "bias_pct_75": 4.1
+    "n_posts": 12010,
+    "overdispersion": 25.71,
+    "mae_pct_25": 24.9,
+    "bias_pct_25": 9.9,
+    "mae_pct_50": 20.5,
+    "bias_pct_50": 7.5,
+    "mae_pct_75": 12.4,
+    "bias_pct_75": 4.0
   },
   {
     "handle": "khamenei_ir",
@@ -86,7 +86,7 @@
   {
     "handle": "realDonaldTrump",
     "n_windows": 33,
-    "n_posts": 4784,
+    "n_posts": 4785,
     "overdispersion": 14.44,
     "mae_pct_25": 32.6,
     "bias_pct_25": 15.1,
