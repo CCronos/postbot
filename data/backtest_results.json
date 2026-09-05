@@ -13,20 +13,20 @@
   },
   {
     "handle": "NYCMayor",
-    "n_windows": 23,
-    "n_posts": 931,
-    "overdispersion": 2.81,
-    "mae_pct_25": 20.3,
-    "bias_pct_25": 7.1,
-    "mae_pct_50": 14.7,
-    "bias_pct_50": 5.0,
-    "mae_pct_75": 8.6,
-    "bias_pct_75": 2.8
+    "n_windows": 24,
+    "n_posts": 932,
+    "overdispersion": 2.73,
+    "mae_pct_25": 19.7,
+    "bias_pct_25": 7.0,
+    "mae_pct_50": 14.6,
+    "bias_pct_50": 5.2,
+    "mae_pct_75": 8.3,
+    "bias_pct_75": 2.5
   },
   {
     "handle": "WhiteHouse",
     "n_windows": 28,
-    "n_posts": 5079,
+    "n_posts": 5080,
     "overdispersion": 9.77,
     "mae_pct_25": 27.5,
     "bias_pct_25": -3.5,
@@ -38,7 +38,7 @@
   {
     "handle": "ZelenskyyUa",
     "n_windows": 24,
-    "n_posts": 2018,
+    "n_posts": 2020,
     "overdispersion": 7.23,
     "mae_pct_25": 22.4,
     "bias_pct_25": 7.8,
@@ -62,7 +62,7 @@
   {
     "handle": "elonmusk",
     "n_windows": 44,
-    "n_posts": 12057,
+    "n_posts": 12058,
     "overdispersion": 25.18,
     "mae_pct_25": 24.7,
     "bias_pct_25": 10.0,
