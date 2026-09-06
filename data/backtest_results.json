@@ -14,7 +14,7 @@
   {
     "handle": "NYCMayor",
     "n_windows": 24,
-    "n_posts": 934,
+    "n_posts": 936,
     "overdispersion": 2.73,
     "mae_pct_25": 19.7,
     "bias_pct_25": 7.0,
@@ -26,7 +26,7 @@
   {
     "handle": "WhiteHouse",
     "n_windows": 28,
-    "n_posts": 5096,
+    "n_posts": 5098,
     "overdispersion": 9.77,
     "mae_pct_25": 27.5,
     "bias_pct_25": -3.5,
@@ -50,7 +50,7 @@
   {
     "handle": "cz_binance",
     "n_windows": 24,
-    "n_posts": 557,
+    "n_posts": 559,
     "overdispersion": 4.89,
     "mae_pct_25": 43.1,
     "bias_pct_25": 23.5,
@@ -62,7 +62,7 @@
   {
     "handle": "elonmusk",
     "n_windows": 44,
-    "n_posts": 12066,
+    "n_posts": 12072,
     "overdispersion": 25.18,
     "mae_pct_25": 24.7,
     "bias_pct_25": 10.0,
@@ -86,10 +86,10 @@
   {
     "handle": "realDonaldTrump",
     "n_windows": 33,
-    "n_posts": 4806,
-    "overdispersion": 14.44,
-    "mae_pct_25": 32.6,
-    "bias_pct_25": 15.1,
+    "n_posts": 4807,
+    "overdispersion": 14.45,
+    "mae_pct_25": 32.5,
+    "bias_pct_25": 14.9,
     "mae_pct_50": 24.9,
     "bias_pct_50": 10.7,
     "mae_pct_75": 10.9,
@@ -98,10 +98,10 @@
   {
     "handle": "tedcruz",
     "n_windows": 26,
-    "n_posts": 3107,
+    "n_posts": 3117,
     "overdispersion": 7.28,
     "mae_pct_25": 26.1,
-    "bias_pct_25": 11.5,
+    "bias_pct_25": 11.6,
     "mae_pct_50": 19.9,
     "bias_pct_50": 7.8,
     "mae_pct_75": 13.0,
