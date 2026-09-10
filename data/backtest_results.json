@@ -14,7 +14,7 @@
   {
     "handle": "NYCMayor",
     "n_windows": 24,
-    "n_posts": 957,
+    "n_posts": 958,
     "overdispersion": 2.73,
     "mae_pct_25": 19.7,
     "bias_pct_25": 6.9,
@@ -26,12 +26,12 @@
   {
     "handle": "WhiteHouse",
     "n_windows": 28,
-    "n_posts": 5214,
-    "overdispersion": 9.54,
+    "n_posts": 5226,
+    "overdispersion": 9.48,
     "mae_pct_25": 27.3,
-    "bias_pct_25": -3.0,
+    "bias_pct_25": -2.9,
     "mae_pct_50": 18.2,
-    "bias_pct_50": -3.7,
+    "bias_pct_50": -3.6,
     "mae_pct_75": 6.7,
     "bias_pct_75": -3.2
   },
@@ -50,20 +50,20 @@
   {
     "handle": "cz_binance",
     "n_windows": 24,
-    "n_posts": 577,
-    "overdispersion": 4.85,
+    "n_posts": 578,
+    "overdispersion": 4.86,
     "mae_pct_25": 43.9,
-    "bias_pct_25": 25.0,
+    "bias_pct_25": 24.9,
     "mae_pct_50": 30.9,
-    "bias_pct_50": 18.0,
-    "mae_pct_75": 22.1,
+    "bias_pct_50": 17.9,
+    "mae_pct_75": 22.0,
     "bias_pct_75": 10.1
   },
   {
     "handle": "elonmusk",
     "n_windows": 44,
-    "n_posts": 12156,
-    "overdispersion": 25.3,
+    "n_posts": 12171,
+    "overdispersion": 25.29,
     "mae_pct_25": 24.5,
     "bias_pct_25": 9.5,
     "mae_pct_50": 20.1,
@@ -86,25 +86,25 @@
   {
     "handle": "realDonaldTrump",
     "n_windows": 33,
-    "n_posts": 4934,
-    "overdispersion": 14.4,
-    "mae_pct_25": 33.0,
-    "bias_pct_25": 16.0,
-    "mae_pct_50": 24.9,
-    "bias_pct_50": 10.8,
-    "mae_pct_75": 10.9,
-    "bias_pct_75": 2.7
+    "n_posts": 4958,
+    "overdispersion": 14.32,
+    "mae_pct_25": 33.1,
+    "bias_pct_25": 16.3,
+    "mae_pct_50": 25.0,
+    "bias_pct_50": 11.1,
+    "mae_pct_75": 11.0,
+    "bias_pct_75": 3.0
   },
   {
     "handle": "tedcruz",
     "n_windows": 26,
-    "n_posts": 3178,
-    "overdispersion": 7.3,
+    "n_posts": 3180,
+    "overdispersion": 7.32,
     "mae_pct_25": 26.0,
-    "bias_pct_25": 11.3,
+    "bias_pct_25": 11.1,
     "mae_pct_50": 19.9,
-    "bias_pct_50": 7.8,
-    "mae_pct_75": 13.0,
-    "bias_pct_75": 3.3
+    "bias_pct_50": 7.6,
+    "mae_pct_75": 12.9,
+    "bias_pct_75": 3.1
   }
 ]
