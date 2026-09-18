@@ -14,26 +14,26 @@
   {
     "handle": "NYCMayor",
     "n_windows": 25,
-    "n_posts": 997,
+    "n_posts": 999,
     "overdispersion": 2.62,
-    "mae_pct_25": 19.3,
-    "bias_pct_25": 7.0,
-    "mae_pct_50": 14.3,
-    "bias_pct_50": 5.3,
+    "mae_pct_25": 19.2,
+    "bias_pct_25": 6.9,
+    "mae_pct_50": 14.2,
+    "bias_pct_50": 5.2,
     "mae_pct_75": 8.0,
-    "bias_pct_75": 2.4
+    "bias_pct_75": 2.5
   },
   {
     "handle": "WhiteHouse",
     "n_windows": 29,
-    "n_posts": 5443,
-    "overdispersion": 9.64,
+    "n_posts": 5451,
+    "overdispersion": 9.6,
     "mae_pct_25": 27.0,
-    "bias_pct_25": -2.9,
-    "mae_pct_50": 17.9,
+    "bias_pct_25": -2.8,
+    "mae_pct_50": 17.8,
     "bias_pct_50": -3.3,
     "mae_pct_75": 6.9,
-    "bias_pct_75": -3.1
+    "bias_pct_75": -3.0
   },
   {
     "handle": "ZelenskyyUa",
@@ -50,26 +50,26 @@
   {
     "handle": "cz_binance",
     "n_windows": 25,
-    "n_posts": 602,
-    "overdispersion": 4.72,
-    "mae_pct_25": 42.6,
-    "bias_pct_25": 24.0,
-    "mae_pct_50": 30.1,
-    "bias_pct_50": 17.6,
-    "mae_pct_75": 21.0,
-    "bias_pct_75": 9.3
+    "n_posts": 603,
+    "overdispersion": 4.75,
+    "mae_pct_25": 42.4,
+    "bias_pct_25": 23.7,
+    "mae_pct_50": 29.9,
+    "bias_pct_50": 17.3,
+    "mae_pct_75": 20.8,
+    "bias_pct_75": 8.9
   },
   {
     "handle": "elonmusk",
     "n_windows": 45,
-    "n_posts": 12370,
-    "overdispersion": 25.39,
+    "n_posts": 12378,
+    "overdispersion": 25.43,
     "mae_pct_25": 24.8,
-    "bias_pct_25": 9.9,
+    "bias_pct_25": 9.8,
     "mae_pct_50": 20.2,
-    "bias_pct_50": 7.2,
+    "bias_pct_50": 7.1,
     "mae_pct_75": 12.2,
-    "bias_pct_75": 4.0
+    "bias_pct_75": 3.9
   },
   {
     "handle": "khamenei_ir",
@@ -85,26 +85,26 @@
   },
   {
     "handle": "realDonaldTrump",
-    "n_windows": 34,
-    "n_posts": 5035,
-    "overdispersion": 14.24,
-    "mae_pct_25": 32.3,
-    "bias_pct_25": 13.9,
-    "mae_pct_50": 24.1,
-    "bias_pct_50": 9.9,
-    "mae_pct_75": 10.5,
-    "bias_pct_75": 2.4
+    "n_windows": 35,
+    "n_posts": 5050,
+    "overdispersion": 14.09,
+    "mae_pct_25": 32.9,
+    "bias_pct_25": 15.1,
+    "mae_pct_50": 24.3,
+    "bias_pct_50": 10.4,
+    "mae_pct_75": 10.6,
+    "bias_pct_75": 2.7
   },
   {
     "handle": "tedcruz",
-    "n_windows": 27,
-    "n_posts": 3304,
-    "overdispersion": 7.09,
-    "mae_pct_25": 25.0,
-    "bias_pct_25": 10.3,
-    "mae_pct_50": 19.1,
-    "bias_pct_50": 7.0,
+    "n_windows": 28,
+    "n_posts": 3311,
+    "overdispersion": 7.0,
+    "mae_pct_25": 24.8,
+    "bias_pct_25": 10.6,
+    "mae_pct_50": 18.9,
+    "bias_pct_50": 7.2,
     "mae_pct_75": 12.4,
-    "bias_pct_75": 2.8
+    "bias_pct_75": 3.1
   }
 ]
