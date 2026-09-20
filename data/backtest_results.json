@@ -26,8 +26,8 @@
   {
     "handle": "WhiteHouse",
     "n_windows": 30,
-    "n_posts": 5485,
-    "overdispersion": 9.4,
+    "n_posts": 5491,
+    "overdispersion": 9.37,
     "mae_pct_25": 26.4,
     "bias_pct_25": -3.1,
     "mae_pct_50": 17.6,
@@ -50,7 +50,7 @@
   {
     "handle": "cz_binance",
     "n_windows": 26,
-    "n_posts": 611,
+    "n_posts": 612,
     "overdispersion": 4.58,
     "mae_pct_25": 41.4,
     "bias_pct_25": 22.1,
@@ -86,7 +86,7 @@
   {
     "handle": "realDonaldTrump",
     "n_windows": 35,
-    "n_posts": 5080,
+    "n_posts": 5083,
     "overdispersion": 14.1,
     "mae_pct_25": 32.8,
     "bias_pct_25": 14.9,
