@@ -37,15 +37,15 @@
   },
   {
     "handle": "ZelenskyyUa",
-    "n_windows": 26,
-    "n_posts": 2291,
-    "overdispersion": 6.74,
-    "mae_pct_25": 21.0,
-    "bias_pct_25": 7.7,
-    "mae_pct_50": 15.3,
-    "bias_pct_50": 5.9,
-    "mae_pct_75": 8.3,
-    "bias_pct_75": 1.4
+    "n_windows": 27,
+    "n_posts": 2295,
+    "overdispersion": 6.7,
+    "mae_pct_25": 20.6,
+    "bias_pct_25": 7.1,
+    "mae_pct_50": 15.5,
+    "bias_pct_50": 4.9,
+    "mae_pct_75": 8.4,
+    "bias_pct_75": 0.9
   },
   {
     "handle": "cz_binance",
@@ -62,7 +62,7 @@
   {
     "handle": "elonmusk",
     "n_windows": 47,
-    "n_posts": 12615,
+    "n_posts": 12622,
     "overdispersion": 25.2,
     "mae_pct_25": 24.5,
     "bias_pct_25": 9.8,
@@ -86,7 +86,7 @@
   {
     "handle": "realDonaldTrump",
     "n_windows": 36,
-    "n_posts": 5181,
+    "n_posts": 5192,
     "overdispersion": 13.98,
     "mae_pct_25": 32.5,
     "bias_pct_25": 14.7,
