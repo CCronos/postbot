@@ -38,12 +38,12 @@
   {
     "handle": "ZelenskyyUa",
     "n_windows": 27,
-    "n_posts": 2334,
-    "overdispersion": 6.68,
+    "n_posts": 2342,
+    "overdispersion": 6.67,
     "mae_pct_25": 20.7,
-    "bias_pct_25": 7.2,
+    "bias_pct_25": 7.3,
     "mae_pct_50": 15.6,
-    "bias_pct_50": 5.3,
+    "bias_pct_50": 5.4,
     "mae_pct_75": 8.4,
     "bias_pct_75": 0.9
   },
