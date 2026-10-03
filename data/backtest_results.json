@@ -13,20 +13,20 @@
   },
   {
     "handle": "NYCMayor",
-    "n_windows": 27,
-    "n_posts": 1072,
-    "overdispersion": 2.64,
-    "mae_pct_25": 18.0,
-    "bias_pct_25": 6.1,
-    "mae_pct_50": 13.6,
-    "bias_pct_50": 4.6,
+    "n_windows": 28,
+    "n_posts": 1073,
+    "overdispersion": 2.57,
+    "mae_pct_25": 17.5,
+    "bias_pct_25": 6.0,
+    "mae_pct_50": 13.2,
+    "bias_pct_50": 4.5,
     "mae_pct_75": 8.2,
-    "bias_pct_75": 2.1
+    "bias_pct_75": 2.2
   },
   {
     "handle": "WhiteHouse",
     "n_windows": 32,
-    "n_posts": 6036,
+    "n_posts": 6048,
     "overdispersion": 11.94,
     "mae_pct_25": 26.1,
     "bias_pct_25": -1.7,
@@ -38,7 +38,7 @@
   {
     "handle": "ZelenskyyUa",
     "n_windows": 28,
-    "n_posts": 2388,
+    "n_posts": 2390,
     "overdispersion": 6.61,
     "mae_pct_25": 20.9,
     "bias_pct_25": 6.9,
@@ -62,7 +62,7 @@
   {
     "handle": "elonmusk",
     "n_windows": 48,
-    "n_posts": 12848,
+    "n_posts": 12850,
     "overdispersion": 24.76,
     "mae_pct_25": 24.1,
     "bias_pct_25": 9.6,
@@ -86,7 +86,7 @@
   {
     "handle": "realDonaldTrump",
     "n_windows": 37,
-    "n_posts": 5376,
+    "n_posts": 5388,
     "overdispersion": 13.67,
     "mae_pct_25": 32.0,
     "bias_pct_25": 14.4,
@@ -98,7 +98,7 @@
   {
     "handle": "tedcruz",
     "n_windows": 30,
-    "n_posts": 3536,
+    "n_posts": 3537,
     "overdispersion": 6.71,
     "mae_pct_25": 24.2,
     "bias_pct_25": 10.0,
