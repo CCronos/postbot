@@ -62,7 +62,7 @@
   {
     "handle": "elonmusk",
     "n_windows": 48,
-    "n_posts": 12842,
+    "n_posts": 12848,
     "overdispersion": 24.76,
     "mae_pct_25": 24.1,
     "bias_pct_25": 9.6,
@@ -86,7 +86,7 @@
   {
     "handle": "realDonaldTrump",
     "n_windows": 37,
-    "n_posts": 5367,
+    "n_posts": 5376,
     "overdispersion": 13.67,
     "mae_pct_25": 32.0,
     "bias_pct_25": 14.4,
