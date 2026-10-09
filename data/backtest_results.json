@@ -26,7 +26,7 @@
   {
     "handle": "WhiteHouse",
     "n_windows": 32,
-    "n_posts": 6229,
+    "n_posts": 6234,
     "overdispersion": 11.63,
     "mae_pct_25": 25.8,
     "bias_pct_25": -1.0,
@@ -62,14 +62,14 @@
   {
     "handle": "elonmusk",
     "n_windows": 48,
-    "n_posts": 13146,
-    "overdispersion": 24.47,
+    "n_posts": 13148,
+    "overdispersion": 24.51,
     "mae_pct_25": 24.4,
-    "bias_pct_25": 10.3,
+    "bias_pct_25": 10.2,
     "mae_pct_50": 20.3,
-    "bias_pct_50": 8.2,
+    "bias_pct_50": 8.1,
     "mae_pct_75": 12.1,
-    "bias_pct_75": 4.4
+    "bias_pct_75": 4.3
   },
   {
     "handle": "khamenei_ir",
