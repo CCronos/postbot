@@ -26,7 +26,7 @@
   {
     "handle": "WhiteHouse",
     "n_windows": 33,
-    "n_posts": 6257,
+    "n_posts": 6267,
     "overdispersion": 11.5,
     "mae_pct_25": 25.7,
     "bias_pct_25": -1.5,
@@ -61,15 +61,15 @@
   },
   {
     "handle": "elonmusk",
-    "n_windows": 48,
-    "n_posts": 13158,
-    "overdispersion": 24.52,
-    "mae_pct_25": 24.3,
-    "bias_pct_25": 10.2,
-    "mae_pct_50": 20.3,
-    "bias_pct_50": 8.1,
-    "mae_pct_75": 12.1,
-    "bias_pct_75": 4.2
+    "n_windows": 49,
+    "n_posts": 13173,
+    "overdispersion": 24.63,
+    "mae_pct_25": 24.2,
+    "bias_pct_25": 9.6,
+    "mae_pct_50": 20.4,
+    "bias_pct_50": 7.3,
+    "mae_pct_75": 12.0,
+    "bias_pct_75": 3.9
   },
   {
     "handle": "khamenei_ir",
@@ -86,7 +86,7 @@
   {
     "handle": "realDonaldTrump",
     "n_windows": 38,
-    "n_posts": 5483,
+    "n_posts": 5484,
     "overdispersion": 13.65,
     "mae_pct_25": 31.4,
     "bias_pct_25": 14.0,
@@ -98,7 +98,7 @@
   {
     "handle": "tedcruz",
     "n_windows": 31,
-    "n_posts": 3669,
+    "n_posts": 3670,
     "overdispersion": 6.57,
     "mae_pct_25": 23.9,
     "bias_pct_25": 9.7,
