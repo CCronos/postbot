@@ -26,7 +26,7 @@
   {
     "handle": "WhiteHouse",
     "n_windows": 33,
-    "n_posts": 6267,
+    "n_posts": 6268,
     "overdispersion": 11.5,
     "mae_pct_25": 25.7,
     "bias_pct_25": -1.5,
@@ -49,20 +49,20 @@
   },
   {
     "handle": "cz_binance",
-    "n_windows": 28,
-    "n_posts": 674,
-    "overdispersion": 4.29,
-    "mae_pct_25": 40.1,
-    "bias_pct_25": 22.1,
-    "mae_pct_50": 27.9,
-    "bias_pct_50": 16.3,
-    "mae_pct_75": 19.5,
-    "bias_pct_75": 8.9
+    "n_windows": 29,
+    "n_posts": 676,
+    "overdispersion": 4.21,
+    "mae_pct_25": 39.3,
+    "bias_pct_25": 20.3,
+    "mae_pct_50": 27.2,
+    "bias_pct_50": 15.0,
+    "mae_pct_75": 18.9,
+    "bias_pct_75": 8.0
   },
   {
     "handle": "elonmusk",
     "n_windows": 49,
-    "n_posts": 13173,
+    "n_posts": 13178,
     "overdispersion": 24.63,
     "mae_pct_25": 24.2,
     "bias_pct_25": 9.6,
@@ -86,7 +86,7 @@
   {
     "handle": "realDonaldTrump",
     "n_windows": 38,
-    "n_posts": 5484,
+    "n_posts": 5499,
     "overdispersion": 13.65,
     "mae_pct_25": 31.4,
     "bias_pct_25": 14.0,
