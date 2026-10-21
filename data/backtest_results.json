@@ -14,10 +14,10 @@
   {
     "handle": "NYCMayor",
     "n_windows": 30,
-    "n_posts": 1149,
+    "n_posts": 1151,
     "overdispersion": 2.54,
-    "mae_pct_25": 16.9,
-    "bias_pct_25": 5.8,
+    "mae_pct_25": 17.0,
+    "bias_pct_25": 5.9,
     "mae_pct_50": 12.9,
     "bias_pct_50": 4.4,
     "mae_pct_75": 8.5,
@@ -26,12 +26,12 @@
   {
     "handle": "WhiteHouse",
     "n_windows": 34,
-    "n_posts": 6588,
-    "overdispersion": 10.93,
+    "n_posts": 6597,
+    "overdispersion": 10.9,
     "mae_pct_25": 25.0,
-    "bias_pct_25": -0.9,
+    "bias_pct_25": -0.8,
     "mae_pct_50": 16.9,
-    "bias_pct_50": -2.0,
+    "bias_pct_50": -1.9,
     "mae_pct_75": 6.8,
     "bias_pct_75": -2.3
   },
@@ -50,23 +50,23 @@
   {
     "handle": "cz_binance",
     "n_windows": 30,
-    "n_posts": 723,
+    "n_posts": 724,
     "overdispersion": 4.09,
     "mae_pct_25": 39.7,
-    "bias_pct_25": 21.4,
-    "mae_pct_50": 26.4,
-    "bias_pct_50": 14.6,
+    "bias_pct_25": 21.3,
+    "mae_pct_50": 26.3,
+    "bias_pct_50": 14.4,
     "mae_pct_75": 18.3,
     "bias_pct_75": 7.5
   },
   {
     "handle": "elonmusk",
     "n_windows": 50,
-    "n_posts": 13645,
-    "overdispersion": 24.6,
+    "n_posts": 13649,
+    "overdispersion": 24.61,
     "mae_pct_25": 24.5,
     "bias_pct_25": 9.5,
-    "mae_pct_50": 20.8,
+    "mae_pct_50": 20.7,
     "bias_pct_50": 7.4,
     "mae_pct_75": 12.1,
     "bias_pct_75": 4.0
@@ -86,7 +86,7 @@
   {
     "handle": "realDonaldTrump",
     "n_windows": 39,
-    "n_posts": 5788,
+    "n_posts": 5795,
     "overdispersion": 13.33,
     "mae_pct_25": 31.9,
     "bias_pct_25": 15.0,
@@ -98,13 +98,13 @@
   {
     "handle": "tedcruz",
     "n_windows": 32,
-    "n_posts": 3896,
-    "overdispersion": 6.4,
+    "n_posts": 3907,
+    "overdispersion": 6.37,
     "mae_pct_25": 23.6,
-    "bias_pct_25": 9.8,
+    "bias_pct_25": 9.9,
     "mae_pct_50": 17.7,
-    "bias_pct_50": 6.3,
-    "mae_pct_75": 11.8,
-    "bias_pct_75": 2.7
+    "bias_pct_50": 6.5,
+    "mae_pct_75": 11.9,
+    "bias_pct_75": 3.0
   }
 ]
