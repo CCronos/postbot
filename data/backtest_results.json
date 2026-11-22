@@ -14,7 +14,7 @@
   {
     "handle": "NYCMayor",
     "n_windows": 35,
-    "n_posts": 1280,
+    "n_posts": 1282,
     "overdispersion": 2.41,
     "mae_pct_25": 16.6,
     "bias_pct_25": 5.8,
@@ -62,7 +62,7 @@
   {
     "handle": "elonmusk",
     "n_windows": 55,
-    "n_posts": 15105,
+    "n_posts": 15131,
     "overdispersion": 23.62,
     "mae_pct_25": 23.8,
     "bias_pct_25": 9.2,
@@ -86,10 +86,10 @@
   {
     "handle": "realDonaldTrump",
     "n_windows": 44,
-    "n_posts": 6908,
-    "overdispersion": 32.81,
-    "mae_pct_25": 38.3,
-    "bias_pct_25": 21.3,
+    "n_posts": 6948,
+    "overdispersion": 32.72,
+    "mae_pct_25": 38.6,
+    "bias_pct_25": 21.9,
     "mae_pct_50": 29.3,
     "bias_pct_50": 15.4,
     "mae_pct_75": 11.9,
